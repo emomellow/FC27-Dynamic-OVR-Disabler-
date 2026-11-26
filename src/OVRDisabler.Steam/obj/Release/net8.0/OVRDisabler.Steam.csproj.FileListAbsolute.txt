@@ -1,0 +1,15 @@
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\bin\Release\net8.0\OVRDisabler.Steam.deps.json
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\bin\Release\net8.0\OVRDisabler.Steam.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\bin\Release\net8.0\OVRDisabler.Steam.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\bin\Release\net8.0\OVRDisabler.Core.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\bin\Release\net8.0\OVRDisabler.Core.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisabler.Steam.csproj.AssemblyReference.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisabler.Steam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisabler.Steam.AssemblyInfoInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisabler.Steam.AssemblyInfo.cs
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisabler.Steam.csproj.CoreCompileInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisab.E9C6311B.Up2Date
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisabler.Steam.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\refint\OVRDisabler.Steam.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\OVRDisabler.Steam.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Steam\obj\Release\net8.0\ref\OVRDisabler.Steam.dll

@@ -1,0 +1,15 @@
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisabler.Compatibility.csproj.AssemblyReference.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisabler.Compatibility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisabler.Compatibility.AssemblyInfoInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisabler.Compatibility.AssemblyInfo.cs
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisabler.Compatibility.csproj.CoreCompileInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\bin\Debug\net8.0\OVRDisabler.Compatibility.deps.json
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\bin\Debug\net8.0\OVRDisabler.Compatibility.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\bin\Debug\net8.0\OVRDisabler.Compatibility.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\bin\Debug\net8.0\OVRDisabler.Core.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\bin\Debug\net8.0\OVRDisabler.Core.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisab.B5153089.Up2Date
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisabler.Compatibility.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\refint\OVRDisabler.Compatibility.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\OVRDisabler.Compatibility.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Compatibility\obj\Debug\net8.0\ref\OVRDisabler.Compatibility.dll

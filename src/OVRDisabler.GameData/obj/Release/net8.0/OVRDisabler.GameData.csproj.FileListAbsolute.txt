@@ -1,0 +1,15 @@
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\bin\Release\net8.0\OVRDisabler.GameData.deps.json
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\bin\Release\net8.0\OVRDisabler.GameData.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\bin\Release\net8.0\OVRDisabler.GameData.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\bin\Release\net8.0\OVRDisabler.Core.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\bin\Release\net8.0\OVRDisabler.Core.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisabler.GameData.csproj.AssemblyReference.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisabler.GameData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisabler.GameData.AssemblyInfoInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisabler.GameData.AssemblyInfo.cs
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisabler.GameData.csproj.CoreCompileInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisab.06F23DF4.Up2Date
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisabler.GameData.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\refint\OVRDisabler.GameData.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\OVRDisabler.GameData.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.GameData\obj\Release\net8.0\ref\OVRDisabler.GameData.dll

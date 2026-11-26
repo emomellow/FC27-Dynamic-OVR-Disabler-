@@ -1,0 +1,7 @@
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\publish\FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64\OVRDisabler.App.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\publish\FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64\OVRDisabler.Core.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\publish\FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64\OVRDisabler.Steam.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\publish\FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64\OVRDisabler.GameData.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\publish\FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64\OVRDisabler.Compatibility.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\publish\FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64\OVRDisabler.Backup.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\publish\FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64\OVRDisabler.App.exe

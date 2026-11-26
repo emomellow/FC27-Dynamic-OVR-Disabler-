@@ -1,0 +1,15 @@
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\bin\Debug\net8.0\OVRDisabler.Backup.deps.json
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\bin\Debug\net8.0\OVRDisabler.Backup.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\bin\Debug\net8.0\OVRDisabler.Backup.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\bin\Debug\net8.0\OVRDisabler.Core.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\bin\Debug\net8.0\OVRDisabler.Core.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisabler.Backup.csproj.AssemblyReference.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisabler.Backup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisabler.Backup.AssemblyInfoInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisabler.Backup.AssemblyInfo.cs
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisabler.Backup.csproj.CoreCompileInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisab.38DA4B4C.Up2Date
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisabler.Backup.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\refint\OVRDisabler.Backup.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\OVRDisabler.Backup.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Backup\obj\Debug\net8.0\ref\OVRDisabler.Backup.dll

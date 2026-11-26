@@ -1,0 +1,12 @@
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\bin\Release\net8.0\OVRDisabler.Core.deps.json
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\bin\Release\net8.0\OVRDisabler.Core.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\bin\Release\net8.0\OVRDisabler.Core.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\OVRDisabler.Core.csproj.AssemblyReference.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\OVRDisabler.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\OVRDisabler.Core.AssemblyInfoInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\OVRDisabler.Core.AssemblyInfo.cs
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\OVRDisabler.Core.csproj.CoreCompileInputs.cache
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\OVRDisabler.Core.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\refint\OVRDisabler.Core.dll
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\OVRDisabler.Core.pdb
+C:\Users\emret\OneDrive\Desktop\Projeler\OVRZero\src\OVRDisabler.Core\obj\Release\net8.0\ref\OVRDisabler.Core.dll

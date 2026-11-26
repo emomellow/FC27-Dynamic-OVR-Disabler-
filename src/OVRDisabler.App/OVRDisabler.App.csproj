@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>..\..\assets\icon.ico</ApplicationIcon>
+    <Version>0.1.0-alpha</Version>
+    <Authors>emresfy</Authors>
+    <Company>emresfy</Company>
+    <Product>FC 27 Dynamic OVR Disabler</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OVRDisabler.Core\OVRDisabler.Core.csproj" />
+    <ProjectReference Include="..\OVRDisabler.Steam\OVRDisabler.Steam.csproj" />
+    <ProjectReference Include="..\OVRDisabler.GameData\OVRDisabler.GameData.csproj" />
+    <ProjectReference Include="..\OVRDisabler.Compatibility\OVRDisabler.Compatibility.csproj" />
+    <ProjectReference Include="..\OVRDisabler.Backup\OVRDisabler.Backup.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.1" />
+  </ItemGroup>
+</Project>
