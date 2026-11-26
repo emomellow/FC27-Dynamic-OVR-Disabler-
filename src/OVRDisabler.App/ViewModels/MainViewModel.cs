@@ -113,6 +113,21 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
+    public void OpenCoffee()
+    {
+        try
+        {
+            var psi = new System.Diagnostics.ProcessStartInfo
+            {
+                FileName = "https://www.buymeacoffee.com/emresfy",
+                UseShellExecute = true
+            };
+            System.Diagnostics.Process.Start(psi);
+        }
+        catch { }
+    }
+
+    [RelayCommand]
     public void DetectGame()
     {
         _logger.LogInformation("Kullanıcı tarafından oyun tespiti tetiklendi.");

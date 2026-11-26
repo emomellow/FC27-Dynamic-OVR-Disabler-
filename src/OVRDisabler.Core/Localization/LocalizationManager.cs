@@ -88,6 +88,7 @@ public static class LocalizationManager
         ["Settings_Lang"] = ("Uygulama Dili / Language:", "Language / Uygulama Dili:"),
         ["Settings_SteamDetect"] = ("Steam Otomatik Algılama: Etkin", "Steam Automatic Detection: Enabled"),
         ["Settings_BackupVerify"] = ("Yedekleme Güvenlik Doğrulaması: SHA-256 Zorunlu", "Backup Integrity Verification: SHA-256 Enforced"),
+        ["Btn_SupportCoffee"] = ("Geliştiriciye Destek Ol ☕", "Buy Me a Coffee ☕"),
 
         // About
         ["About_Title"] = ("Hakkında", "About"),

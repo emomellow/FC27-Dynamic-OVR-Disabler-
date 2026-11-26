@@ -57,6 +57,18 @@
 
                 <!-- Alt Durum Rozeti -->
                 <StackPanel DockPanel.Dock="Bottom">
+                    <Button Content="Buy Me a Coffee ☕" Command="{Binding OpenCoffeeCommand}"
+                            Background="#FFDD00" Foreground="#000000" FontWeight="SemiBold" FontSize="12"
+                            Padding="8,8" BorderThickness="0" Cursor="Hand" Margin="0,0,0,10" HorizontalAlignment="Stretch">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" CornerRadius="6" Padding="{TemplateBinding Padding}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
                     <Border Background="{StaticResource CardBgBrush}" CornerRadius="8" Padding="12">
                         <StackPanel>
                             <TextBlock Text="{Binding [Badge_CompatStatus]}" FontSize="11" Foreground="{StaticResource SecondaryTextBrush}" />
@@ -382,6 +394,19 @@
                                 <TextBlock Text="{Binding [About_Dev]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
                                 <TextBlock Text="{Binding [About_License]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
                                 <TextBlock Text="{Binding [About_Price]}" FontSize="14" Foreground="{StaticResource SecondaryAccentBrush}" Margin="0,0,0,16" />
+
+                                <!-- Buy Me a Coffee Butonu -->
+                                <Button Content="{Binding [Btn_SupportCoffee]}" Command="{Binding OpenCoffeeCommand}"
+                                        Background="#FFDD00" Foreground="#000000" FontWeight="Bold" FontSize="14"
+                                        Padding="16,10" BorderThickness="0" Cursor="Hand" Margin="0,0,0,16" HorizontalAlignment="Left">
+                                    <Button.Template>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}" CornerRadius="8" Padding="{TemplateBinding Padding}">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Button.Template>
+                                </Button>
 
                                 <Border Background="#102B3A" CornerRadius="8" Padding="14">
                                     <TextBlock Text="{Binding [About_Disclaimer]}"
