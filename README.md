@@ -4,6 +4,7 @@
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20x64-0078D6.svg)](https://microsoft.com/windows)
 [![Game: EA SPORTS FC 27](https://img.shields.io/badge/Game-EA%20SPORTS%20FC%2027-00E5CC.svg)](https://store.steampowered.com/app/4080220)
 [![Version: 0.1.0-alpha](https://img.shields.io/badge/Version-0.1.0--alpha-39F5A0.svg)](https://github.com/emomellow/FC27-Dynamic-OVR-Disabler-)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-emresfy-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/emresfy)
 
 > [!NOTE]
 > 🇬🇧 English documentation is on top.  
@@ -50,6 +51,12 @@ You don't need any modding experience to use this tool:
    - Or launch the game via Steam with `-dataPath FIFAModData` in Steam Launch Options to load modded files directly.
 6. **Play**: Launch Career Mode! Your player ratings will now show `+0 OVR` for form/morale without affecting permanent potential progression.
 
+### ☕ Support the Project
+
+If this tool improved your FC 27 Career Mode experience and saved you from broken game updates, you can support its active maintenance by buying me a coffee!
+
+<a href="https://www.buymeacoffee.com/emresfy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;" ></a>
+
 ### ⚖️ Legal Disclaimer
 
 This project is an independent and unofficial open-source community tool. It is not affiliated with, endorsed by, or associated with Electronic Arts Inc.
@@ -94,6 +101,12 @@ Bu aracı kullanmak için hiçbir modlama veya teknik bilgiye ihtiyacınız yokt
    - Dilerseniz **"Düzenlenmiş Dosyaları Dışa Aktar..."** butonu ile sıfırlanmış CSV dosyalarını alabilirsiniz.
    - Ya da Steam'de oyunun Başlatma Seçenekleri'ne `-dataPath FIFAModData` ekleyerek doğrudan oyunu açabilirsiniz.
 6. **Keyfini Çıkarın**: Kariyer Modunuza girin! Oyuncularınızın reytinginde form/moral bonusları artık `+0 GEN` olarak görünecek; kalıcı oyuncu gelişimi ise doğal olarak devam edecektir.
+
+### ☕ Projeyi Destekleyin
+
+Bu araç FC 27 Kariyer Modu deneyiminizi iyileştirdiyse ve sizi bozuk güncellemelerden kurtardıysa, güncel kalmasına destek olmak için bir kahve ısmarlayabilirsiniz!
+
+<a href="https://www.buymeacoffee.com/emresfy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;" ></a>
 
 ### ⚖️ Yasal Bildirim
 
