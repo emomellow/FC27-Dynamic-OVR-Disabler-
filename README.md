@@ -37,18 +37,18 @@ The tool only neutralizes temporary Dynamic OVR cosmetics and guarantees:
 - **Data Integrity**: Automatic timestamped backups with SHA-256 hash verification before any write operation.
 - **Deterministic & Idempotent**: Transformations are schema-aware and repeatable without side effects.
 
-### 🚀 Installation & Usage
+### 🚀 Quick Start Guide (For Players)
 
-1. Download the latest release from the [Releases](https://github.com/emomellow/FC27-Dynamic-OVR-Disabler-/releases) section or run the portable executable:
-   ```text
-   publish/FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64/OVRDisabler.App.exe
-   ```
-2. The application will automatically detect your Steam installation and game version.
-3. Select your options under **Dynamic OVR** tab:
-   - Disable Form Modifiers
-   - Disable Morale Modifiers
-   - Disable Match Fitness Modifiers
-4. Export your transformed CSV or apply changes directly.
+You don't need any modding experience to use this tool:
+
+1. **Download**: Go to the [Releases](https://github.com/emomellow/FC27-Dynamic-OVR-Disabler-/releases) section and download `FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64.zip`.
+2. **Extract & Run**: Extract the zip anywhere on your computer and run **`OVRDisabler.App.exe`**.
+3. **Automatic Detection**: The app will automatically find your EA SPORTS FC 27 installation and evaluate compatibility.
+4. **Choose Options**: Under the **Dynamic OVR** tab, simply toggle which modifiers you want disabled (Form, Morale, Match Fitness).
+5. **Apply / Export**:
+   - Click **"Export Modified CSV..."** to generate zeroed-out data files.
+   - Or launch the game via Steam with `-dataPath FIFAModData` in Steam Launch Options to load modded files directly.
+6. **Play**: Launch Career Mode! Your player ratings will now show `+0 OVR` for form/morale without affecting permanent potential progression.
 
 ### ⚖️ Legal Disclaimer
 
@@ -82,18 +82,18 @@ Uygulama yalnızca geçici Dynamic OVR makyajını sıfırlar, gerçekçi kariye
 - **Veri Bütünlüğü**: Her işlem öncesinde SHA-256 hash doğrulamalı, zaman damgalı otomatik yedek alınır.
 - **Deterministik ve Güvenli**: Dönüşümler şema duyarlıdır ve özdeş sonuçlar üretir.
 
-### 🚀 Kurulum ve Kullanım
+### 🚀 Hızlı Başlangıç Rehberi (Oyuncular İçin)
 
-1. [Releases](https://github.com/emomellow/FC27-Dynamic-OVR-Disabler-/releases) sayfasından son sürümü indirin veya hazır taşınabilir dosyayı çalıştırın:
-   ```text
-   publish/FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64/OVRDisabler.App.exe
-   ```
-2. Uygulama Steam kurulumunuzu ve oyun sürümünüzü otomatik olarak algılayacaktır.
-3. **Dynamic OVR** sekmesinden tercihlerinizi belirleyin:
-   - Form Etkilerini Devre Dışı Bırak
-   - Moral Etkilerini Devre Dışı Bırak
-   - Maç Kondisyonu Etkilerini Devre Dışı Bırak
-4. Düzenlenmiş CSV dosyanızı dışa aktarın veya doğrudan oyuna uygulayın.
+Bu aracı kullanmak için hiçbir modlama veya teknik bilgiye ihtiyacınız yoktur:
+
+1. **İndirin**: [Releases](https://github.com/emomellow/FC27-Dynamic-OVR-Disabler-/releases) sayfasından `FC27-Dynamic-OVR-Disabler-v0.1.0-alpha-win-x64.zip` dosyasını indirin.
+2. **Çıkartın ve Çalıştırın**: ZIP dosyasını klasöre çıkartın ve **`OVRDisabler.App.exe`** uygulamasını çift tıklayarak açın.
+3. **Otomatik Algılama**: Uygulama Steam ve EA SPORTS FC 27 kurulumunuzu otomatik olarak bulacaktır.
+4. **Seçenekleri Belirleyin**: **Dynamic OVR** sekmesine gelip kapatmak istediğiniz etkileri seçin (Form, Moral, Maç Kondisyonu).
+5. **Dışa Aktarın / Başlatın**:
+   - Dilerseniz **"Düzenlenmiş Dosyaları Dışa Aktar..."** butonu ile sıfırlanmış CSV dosyalarını alabilirsiniz.
+   - Ya da Steam'de oyunun Başlatma Seçenekleri'ne `-dataPath FIFAModData` ekleyerek doğrudan oyunu açabilirsiniz.
+6. **Keyfini Çıkarın**: Kariyer Modunuza girin! Oyuncularınızın reytinginde form/moral bonusları artık `+0 GEN` olarak görünecek; kalıcı oyuncu gelişimi ise doğal olarak devam edecektir.
 
 ### ⚖️ Yasal Bildirim
 
