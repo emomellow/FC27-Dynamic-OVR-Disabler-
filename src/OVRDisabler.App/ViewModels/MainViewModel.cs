@@ -5,6 +5,7 @@ using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.Logging;
 using OVRDisabler.Backup;
 using OVRDisabler.Compatibility;
+using OVRDisabler.Core.Localization;
 using OVRDisabler.Core.Logging;
 using OVRDisabler.Core.Models;
 using OVRDisabler.GameData;
@@ -52,6 +53,26 @@ public partial class MainViewModel : ObservableObject
 
     // Navigasyon
     [ObservableProperty] private string _currentView = "Overview";
+
+    // Dil Desteği
+    [ObservableProperty] private bool _isTurkish = true;
+    public string this[string key] => LocalizationManager.Get(key);
+
+    [RelayCommand]
+    public void SetLanguage(string lang)
+    {
+        if (lang.Equals("en", StringComparison.OrdinalIgnoreCase))
+        {
+            LocalizationManager.CurrentLanguage = AppLanguage.English;
+            IsTurkish = false;
+        }
+        else
+        {
+            LocalizationManager.CurrentLanguage = AppLanguage.Turkish;
+            IsTurkish = true;
+        }
+        OnPropertyChanged(string.Empty); // Tüm binding'leri yenile
+    }
 
     // Oyun ve Uyumluluk Durumu
     [ObservableProperty] private string _gameStatusText = "Oyun Aranıyor...";

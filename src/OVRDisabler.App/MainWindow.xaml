@@ -39,19 +39,19 @@
 
                 <!-- Menü Öğeleri -->
                 <StackPanel DockPanel.Dock="Top">
-                    <RadioButton Content="Genel Bakış" Style="{StaticResource NavRadioButtonStyle}" IsChecked="True"
+                    <RadioButton Content="{Binding [Nav_Overview]}" Style="{StaticResource NavRadioButtonStyle}" IsChecked="True"
                                  Command="{Binding SwitchViewCommand}" CommandParameter="Overview" />
-                    <RadioButton Content="Dynamic OVR" Style="{StaticResource NavRadioButtonStyle}"
+                    <RadioButton Content="{Binding [Nav_DynamicOVR]}" Style="{StaticResource NavRadioButtonStyle}"
                                  Command="{Binding SwitchViewCommand}" CommandParameter="DynamicOVR" />
-                    <RadioButton Content="Dosya Analizi" Style="{StaticResource NavRadioButtonStyle}"
+                    <RadioButton Content="{Binding [Nav_Analysis]}" Style="{StaticResource NavRadioButtonStyle}"
                                  Command="{Binding SwitchViewCommand}" CommandParameter="Analysis" />
-                    <RadioButton Content="Yedeklemeler" Style="{StaticResource NavRadioButtonStyle}"
+                    <RadioButton Content="{Binding [Nav_Backups]}" Style="{StaticResource NavRadioButtonStyle}"
                                  Command="{Binding SwitchViewCommand}" CommandParameter="Backups" />
-                    <RadioButton Content="İşlem Geçmişi" Style="{StaticResource NavRadioButtonStyle}"
+                    <RadioButton Content="{Binding [Nav_Logs]}" Style="{StaticResource NavRadioButtonStyle}"
                                  Command="{Binding SwitchViewCommand}" CommandParameter="Logs" />
-                    <RadioButton Content="Ayarlar" Style="{StaticResource NavRadioButtonStyle}"
+                    <RadioButton Content="{Binding [Nav_Settings]}" Style="{StaticResource NavRadioButtonStyle}"
                                  Command="{Binding SwitchViewCommand}" CommandParameter="Settings" />
-                    <RadioButton Content="Hakkında" Style="{StaticResource NavRadioButtonStyle}"
+                    <RadioButton Content="{Binding [Nav_About]}" Style="{StaticResource NavRadioButtonStyle}"
                                  Command="{Binding SwitchViewCommand}" CommandParameter="About" />
                 </StackPanel>
 
@@ -59,7 +59,7 @@
                 <StackPanel DockPanel.Dock="Bottom">
                     <Border Background="{StaticResource CardBgBrush}" CornerRadius="8" Padding="12">
                         <StackPanel>
-                            <TextBlock Text="Uyumluluk Durumu:" FontSize="11" Foreground="{StaticResource SecondaryTextBrush}" />
+                            <TextBlock Text="{Binding [Badge_CompatStatus]}" FontSize="11" Foreground="{StaticResource SecondaryTextBrush}" />
                             <TextBlock Text="{Binding CompatibilityStatusText}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource PrimaryAccentBrush}" Margin="0,2,0,0" />
                         </StackPanel>
                     </Border>
@@ -86,15 +86,15 @@
                             </Style>
                         </StackPanel.Style>
 
-                        <TextBlock Text="Genel Bakış" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
-                        <TextBlock Text="Sistem durumu, EA SPORTS FC 27 kurulum ve uyumluluk verileri." FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding [Overview_Title]}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
+                        <TextBlock Text="{Binding [Overview_Subtitle]}" FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
 
                         <!-- Durum Kartları Izgarası -->
                         <UniformGrid Columns="2" Margin="0,0,0,20">
                             <!-- Oyun Durumu Kartı -->
                             <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18" Margin="0,0,10,10">
                                 <StackPanel>
-                                    <TextBlock Text="OYUN DURUMU" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
+                                    <TextBlock Text="{Binding [Card_GameStatus]}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
                                     <TextBlock Text="{Binding GameStatusText}" FontSize="18" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" />
                                     <TextBlock Text="{Binding SteamPathText}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,6,0,0" TextTrimming="CharacterEllipsis" />
                                 </StackPanel>
@@ -103,7 +103,7 @@
                             <!-- Uyumluluk Kartı -->
                             <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18" Margin="10,0,0,10">
                                 <StackPanel>
-                                    <TextBlock Text="UYUMLULUK DURUMU" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
+                                    <TextBlock Text="{Binding [Card_CompatStatus]}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
                                     <TextBlock Text="{Binding CompatibilityStatusText}" FontSize="18" FontWeight="Bold" Foreground="{StaticResource PrimaryAccentBrush}" />
                                     <TextBlock Text="{Binding CompatibilityExplanation}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,6,0,0" TextWrapping="Wrap" />
                                 </StackPanel>
@@ -112,13 +112,13 @@
                             <!-- Versiyon Bilgisi Kartı -->
                             <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18" Margin="0,10,10,0">
                                 <StackPanel>
-                                    <TextBlock Text="OYUN SÜRÜMÜ BİLGİSİ" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
+                                    <TextBlock Text="{Binding [Card_GameVersion]}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Dosya Sürümü: " FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
+                                        <TextBlock Text="{Binding [Lbl_FileVersion]}" FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
                                         <TextBlock Text="{Binding GameVersionText}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource PrimaryTextBrush}" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
-                                        <TextBlock Text="Ürün Sürümü: " FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
+                                        <TextBlock Text="{Binding [Lbl_ProductVersion]}" FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
                                         <TextBlock Text="{Binding ProductVersionText}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource SecondaryAccentBrush}" />
                                     </StackPanel>
                                 </StackPanel>
@@ -127,13 +127,13 @@
                             <!-- Uygulama ve Analiz Kartı -->
                             <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18" Margin="10,10,0,0">
                                 <StackPanel>
-                                    <TextBlock Text="UYGULAMA VE ANALİZ BİLGİSİ" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
+                                    <TextBlock Text="{Binding [Card_AppInfo]}" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,8" />
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Uygulama Sürümü: " FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
+                                        <TextBlock Text="{Binding [Lbl_AppVersion]}" FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
                                         <TextBlock Text="{Binding AppVersionText}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource PrimaryTextBrush}" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
-                                        <TextBlock Text="Son Analiz: " FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
+                                        <TextBlock Text="{Binding [Lbl_LastAnalysis]}" FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" />
                                         <TextBlock Text="{Binding LastAnalysisDateText}" FontSize="13" FontWeight="SemiBold" Foreground="{StaticResource PrimaryTextBrush}" />
                                     </StackPanel>
                                 </StackPanel>
@@ -143,9 +143,9 @@
                         <!-- Eylem Butonları -->
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18" Margin="0,10,0,0">
                             <StackPanel Orientation="Horizontal">
-                                <Button Content="Oyunu Algıla" Style="{StaticResource PrimaryButtonStyle}" Command="{Binding DetectGameCommand}" Margin="0,0,12,0" />
-                                <Button Content="Oyun Klasörünü Seç..." Style="{StaticResource SecondaryButtonStyle}" Click="SelectFolder_Click" Margin="0,0,12,0" />
-                                <Button Content="Dosyaları Analiz Et" Style="{StaticResource SecondaryButtonStyle}" Click="SelectFile_Click" />
+                                <Button Content="{Binding [Btn_DetectGame]}" Style="{StaticResource PrimaryButtonStyle}" Command="{Binding DetectGameCommand}" Margin="0,0,12,0" />
+                                <Button Content="{Binding [Btn_SelectFolder]}" Style="{StaticResource SecondaryButtonStyle}" Click="SelectFolder_Click" Margin="0,0,12,0" />
+                                <Button Content="{Binding [Btn_AnalyzeFiles]}" Style="{StaticResource SecondaryButtonStyle}" Click="SelectFile_Click" />
                             </StackPanel>
                         </Border>
                     </StackPanel>
@@ -163,17 +163,17 @@
                             </Style>
                         </StackPanel.Style>
 
-                        <TextBlock Text="Dynamic OVR Modifikasyon Ayarları" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
-                        <TextBlock Text="Kariyer Modundaki geçici reyting modifikatörlerini nötralize edin." FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding [OVR_Title]}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
+                        <TextBlock Text="{Binding [OVR_Subtitle]}" FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
 
                         <!-- Anahtarlar -->
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="20" Margin="0,0,0,20">
                             <StackPanel>
-                                <CheckBox Content="Form Etkilerini Devre Dışı Bırak (Very Good / Good / Bad / Very Bad)"
+                                <CheckBox Content="{Binding [Toggle_Form]}"
                                           Style="{StaticResource ModernToggleCheckBox}" IsChecked="{Binding DisableForm}" Margin="0,0,0,16" />
-                                <CheckBox Content="Moral Etkilerini Devre Dışı Bırak (Very Happy / Happy / Sad / Very Sad)"
+                                <CheckBox Content="{Binding [Toggle_Morale]}"
                                           Style="{StaticResource ModernToggleCheckBox}" IsChecked="{Binding DisableMorale}" Margin="0,0,0,16" />
-                                <CheckBox Content="Maç Kondisyonu Etkilerini Devre Dışı Bırak (Abysmal / Unfit / Off-Par / Decent / Sharp)"
+                                <CheckBox Content="{Binding [Toggle_MatchFitness]}"
                                           Style="{StaticResource ModernToggleCheckBox}" IsChecked="{Binding DisableMatchFitness}" />
                             </StackPanel>
                         </Border>
@@ -181,21 +181,21 @@
                         <!-- Koruma Bilgisi Kartı -->
                         <Border Background="#102B3A" BorderBrush="#00E5CC" BorderThickness="1" CornerRadius="10" Padding="18" Margin="0,0,0,20">
                             <StackPanel>
-                                <TextBlock Text="MİMARİ KORUMA GÜVENCESİ" FontWeight="Bold" FontSize="13" Foreground="{StaticResource PrimaryAccentBrush}" Margin="0,0,0,8" />
-                                <TextBlock Text="• Normal oyuncu gelişimine doğrudan müdahale edilmez (Potansiyel artışı korunur)." FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
-                                <TextBlock Text="• Yaşa bağlı oyuncu gerilemesine doğrudan müdahale edilmez." FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
-                                <TextBlock Text="• Sakatlık cezaları orijinal değerleriyle korunur (Yellow: -30, Red/Orange: -80)." FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
-                                <TextBlock Text="• Kondisyon eşikleri ve form/moral ağırlık yüzdeleri bozulmadan korunur." FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
+                                <TextBlock Text="{Binding [Notice_Title]}" FontWeight="Bold" FontSize="13" Foreground="{StaticResource PrimaryAccentBrush}" Margin="0,0,0,8" />
+                                <TextBlock Text="{Binding [Notice_1]}" FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
+                                <TextBlock Text="{Binding [Notice_2]}" FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
+                                <TextBlock Text="{Binding [Notice_3]}" FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
+                                <TextBlock Text="{Binding [Notice_4]}" FontSize="13" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,2" />
                             </StackPanel>
                         </Border>
 
                         <!-- Eylem Butonları -->
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18">
                             <StackPanel Orientation="Horizontal">
-                                <Button Content="Değişiklikleri Önizle" Style="{StaticResource SecondaryButtonStyle}" Click="SelectFile_Click" Margin="0,0,12,0" />
-                                <Button Content="Düzenlenmiş Dosyaları Dışa Aktar..." Style="{StaticResource PrimaryButtonStyle}" Click="ExportCsv_Click" Margin="0,0,12,0" />
-                                <Button Content="Değişiklikleri Uygula" Style="{StaticResource PrimaryButtonStyle}" IsEnabled="{Binding CanDirectDeploy}" ToolTip="Doğrudan oyun içi dağıtım güvenliği EA Anticheat nedeniyle devre dışıdır." Margin="0,0,12,0" />
-                                <Button Content="Orijinal Dosyaları Geri Yükle" Style="{StaticResource SecondaryButtonStyle}" Click="RestoreOVR_Click" />
+                                <Button Content="{Binding [Btn_PreviewChanges]}" Style="{StaticResource SecondaryButtonStyle}" Click="SelectFile_Click" Margin="0,0,12,0" />
+                                <Button Content="{Binding [Btn_ExportCsv]}" Style="{StaticResource PrimaryButtonStyle}" Click="ExportCsv_Click" Margin="0,0,12,0" />
+                                <Button Content="{Binding [Btn_ApplyChanges]}" Style="{StaticResource PrimaryButtonStyle}" IsEnabled="{Binding CanDirectDeploy}" ToolTip="TU 1.3.0 Doğrudan Mod Enjektörü." Margin="0,0,12,0" />
+                                <Button Content="{Binding [Btn_RestoreOriginal]}" Style="{StaticResource SecondaryButtonStyle}" Click="RestoreOVR_Click" />
                             </StackPanel>
                         </Border>
                     </StackPanel>
@@ -213,8 +213,8 @@
                             </Style>
                         </StackPanel.Style>
 
-                        <TextBlock Text="Dosya Analizi ve Şema Doğrulama" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
-                        <TextBlock Text="Orijinal veya düzenlenmiş CSV varlıklarını inceleyin ve doğrulayın." FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding [Analysis_Title]}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
+                        <TextBlock Text="{Binding [Analysis_Subtitle]}" FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
 
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18" Margin="0,0,0,20">
                             <Grid>
@@ -224,7 +224,7 @@
                                 </Grid.ColumnDefinitions>
                                 <TextBox Text="{Binding SelectedCsvPath, Mode=OneWay}" Background="#0A2234" Foreground="{StaticResource PrimaryTextBrush}"
                                          Padding="10,8" BorderThickness="1" BorderBrush="#1D3E50" IsReadOnly="True" VerticalAlignment="Center" />
-                                <Button Grid.Column="1" Content="CSV Dosyası Seç..." Style="{StaticResource PrimaryButtonStyle}" Click="SelectFile_Click" Margin="12,0,0,0" />
+                                <Button Grid.Column="1" Content="{Binding [Btn_SelectCsv]}" Style="{StaticResource PrimaryButtonStyle}" Click="SelectFile_Click" Margin="12,0,0,0" />
                             </Grid>
                         </Border>
 
@@ -232,44 +232,44 @@
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18" Margin="0,0,0,20">
                             <UniformGrid Columns="2">
                                 <StackPanel Margin="0,0,0,12">
-                                    <TextBlock Text="Dosya Adı:" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                    <TextBlock Text="{Binding [Lbl_FileName]}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
                                     <TextBlock Text="{Binding AnalyzedFileName}" FontSize="14" FontWeight="SemiBold" Foreground="{StaticResource PrimaryTextBrush}" />
                                 </StackPanel>
                                 <StackPanel Margin="0,0,0,12">
-                                    <TextBlock Text="Dosya Boyutu:" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                    <TextBlock Text="{Binding [Lbl_FileSize]}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
                                     <TextBlock Text="{Binding AnalyzedFileSize}" FontSize="14" FontWeight="SemiBold" Foreground="{StaticResource PrimaryTextBrush}" />
                                 </StackPanel>
                                 <StackPanel Margin="0,0,0,12">
-                                    <TextBlock Text="Tespit Edilen Şema / Tür:" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                    <TextBlock Text="{Binding [Lbl_DetectedSchema]}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
                                     <TextBlock Text="{Binding AnalyzedFileType}" FontSize="14" FontWeight="SemiBold" Foreground="{StaticResource PrimaryAccentBrush}" />
                                 </StackPanel>
                                 <StackPanel Margin="0,0,0,12">
-                                    <TextBlock Text="Şema Doğrulaması:" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                    <TextBlock Text="{Binding [Lbl_SchemaStatus]}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
                                     <TextBlock Text="{Binding AnalyzedSchemaStatus}" FontSize="14" FontWeight="SemiBold" Foreground="{StaticResource SecondaryAccentBrush}" />
                                 </StackPanel>
                                 <StackPanel Margin="0,0,0,12">
-                                    <TextBlock Text="Değiştirilecek / Nötralize Edilecek Değer Sayısı:" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                    <TextBlock Text="{Binding [Lbl_ValuesToModify]}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
                                     <TextBlock Text="{Binding AnalyzedChangedCount}" FontSize="16" FontWeight="Bold" Foreground="{StaticResource PrimaryAccentBrush}" />
                                 </StackPanel>
                                 <StackPanel Margin="0,0,0,12">
-                                    <TextBlock Text="SHA-256 Özeti:" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                    <TextBlock Text="{Binding [Lbl_Sha256]}" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
                                     <TextBlock Text="{Binding AnalyzedSha256}" FontSize="11" Foreground="{StaticResource SecondaryTextBrush}" TextTrimming="CharacterEllipsis" />
                                 </StackPanel>
                             </UniformGrid>
                         </Border>
 
                         <!-- Değişiklik Önizleme Listesi -->
-                        <TextBlock Text="Değişiklik Önizlemesi (İlk 100 Değişim)" FontSize="16" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,10" />
+                        <TextBlock Text="{Binding [Title_PreviewTable]}" FontSize="16" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,10" />
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="8" Height="250">
                             <DataGrid ItemsSource="{Binding PreviewChangesList}" AutoGenerateColumns="False" Background="Transparent"
                                       RowBackground="#102B3A" AlternatingRowBackground="#133342" Foreground="{StaticResource PrimaryTextBrush}"
                                       GridLinesVisibility="None" HeadersVisibility="Column" IsReadOnly="True" BorderThickness="0">
                                 <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Bölüm" Binding="{Binding Section}" Width="120" />
-                                    <DataGridTextColumn Header="Satır Kimliği" Binding="{Binding RowIdentifier}" Width="140" />
-                                    <DataGridTextColumn Header="Sütun" Binding="{Binding ColumnIdentifier}" Width="100" />
-                                    <DataGridTextColumn Header="Orijinal Değer" Binding="{Binding OriginalValue}" Width="110" />
-                                    <DataGridTextColumn Header="Yeni Değer" Binding="{Binding NewValue}" Width="90" />
+                                    <DataGridTextColumn Header="Section" Binding="{Binding Section}" Width="120" />
+                                    <DataGridTextColumn Header="Row" Binding="{Binding RowIdentifier}" Width="140" />
+                                    <DataGridTextColumn Header="Column" Binding="{Binding ColumnIdentifier}" Width="100" />
+                                    <DataGridTextColumn Header="Original" Binding="{Binding OriginalValue}" Width="110" />
+                                    <DataGridTextColumn Header="New" Binding="{Binding NewValue}" Width="90" />
                                 </DataGrid.Columns>
                             </DataGrid>
                         </Border>
@@ -288,19 +288,19 @@
                             </Style>
                         </StackPanel.Style>
 
-                        <TextBlock Text="Yedekleme ve Kurtarma Yönetimi" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
-                        <TextBlock Text="İşlem öncesi oluşturulan zaman damgalı güvenli yedekler." FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding [Backups_Title]}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
+                        <TextBlock Text="{Binding [Backups_Subtitle]}" FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
 
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="12" Height="400">
                             <DataGrid ItemsSource="{Binding BackupList}" AutoGenerateColumns="False" Background="Transparent"
                                       RowBackground="#102B3A" AlternatingRowBackground="#133342" Foreground="{StaticResource PrimaryTextBrush}"
                                       GridLinesVisibility="None" HeadersVisibility="Column" IsReadOnly="True" BorderThickness="0">
                                 <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Tarih" Binding="{Binding Timestamp, StringFormat='dd.MM.yyyy HH:mm:ss'}" Width="140" />
-                                    <DataGridTextColumn Header="Açıklama" Binding="{Binding Description}" Width="200" />
-                                    <DataGridTextColumn Header="Orijinal Yol" Binding="{Binding OriginalFilePath}" Width="*" />
+                                    <DataGridTextColumn Header="Timestamp" Binding="{Binding Timestamp, StringFormat='dd.MM.yyyy HH:mm:ss'}" Width="140" />
+                                    <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="200" />
+                                    <DataGridTextColumn Header="Original Path" Binding="{Binding OriginalFilePath}" Width="*" />
                                     <DataGridTextColumn Header="SHA-256" Binding="{Binding Sha256Original}" Width="140" />
-                                    <DataGridTextColumn Header="Boyut" Binding="{Binding FileSize}" Width="80" />
+                                    <DataGridTextColumn Header="Size" Binding="{Binding FileSize}" Width="80" />
                                 </DataGrid.Columns>
                             </DataGrid>
                         </Border>
@@ -319,8 +319,8 @@
                             </Style>
                         </StackPanel.Style>
 
-                        <TextBlock Text="İşlem Geçmişi ve Sistem Günlükleri" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
-                        <TextBlock Text="Uygulama logları ve teşhis bilgileri." FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding [Logs_Title]}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
+                        <TextBlock Text="{Binding [Logs_Subtitle]}" FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
 
                         <Border Background="#0A1E2C" CornerRadius="10" Padding="12" Height="420">
                             <ListBox ItemsSource="{Binding Logs}" Background="Transparent" BorderThickness="0"
@@ -341,14 +341,20 @@
                             </Style>
                         </StackPanel.Style>
 
-                        <TextBlock Text="Ayarlar" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
-                        <TextBlock Text="Uygulama ve dağıtım tercihleri." FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding [Settings_Title]}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
+                        <TextBlock Text="{Binding [Settings_Subtitle]}" FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
 
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="18">
                             <StackPanel>
-                                <TextBlock Text="Dil: Türkçe (Varsayılan)" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,10" />
-                                <TextBlock Text="Steam Otomatik Algılama: Etkin" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,10" />
-                                <TextBlock Text="Yedekleme Güvenlik Doğrulaması: SHA-256 Zorunlu" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" />
+                                <!-- Dil Seçici -->
+                                <StackPanel Orientation="Horizontal" Margin="0,0,0,16" VerticalAlignment="Center">
+                                    <TextBlock Text="{Binding [Settings_Lang]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" VerticalAlignment="Center" Margin="0,0,14,0" />
+                                    <Button Content="Türkçe" Style="{StaticResource SecondaryButtonStyle}" Command="{Binding SetLanguageCommand}" CommandParameter="tr" Margin="0,0,8,0" />
+                                    <Button Content="English" Style="{StaticResource SecondaryButtonStyle}" Command="{Binding SetLanguageCommand}" CommandParameter="en" />
+                                </StackPanel>
+
+                                <TextBlock Text="{Binding [Settings_SteamDetect]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,10" />
+                                <TextBlock Text="{Binding [Settings_BackupVerify]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" />
                             </StackPanel>
                         </Border>
                     </StackPanel>
@@ -366,19 +372,19 @@
                             </Style>
                         </StackPanel.Style>
 
-                        <TextBlock Text="Hakkında" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
-                        <TextBlock Text="Proje bilgileri, geliştirici ve lisans hakları." FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
+                        <TextBlock Text="{Binding [About_Title]}" FontSize="26" FontWeight="Bold" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,6" />
+                        <TextBlock Text="{Binding [About_Subtitle]}" FontSize="14" Foreground="{StaticResource SecondaryTextBrush}" Margin="0,0,0,24" />
 
                         <Border Background="{StaticResource CardBgBrush}" CornerRadius="10" Padding="24" Margin="0,0,0,20">
                             <StackPanel>
-                                <TextBlock Text="FC 27 Dynamic OVR Disabler" FontSize="20" FontWeight="Bold" Foreground="{StaticResource PrimaryAccentBrush}" Margin="0,0,0,8" />
-                                <TextBlock Text="Sürüm: 0.1.0-alpha" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
-                                <TextBlock Text="Geliştirici: emresfy" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
-                                <TextBlock Text="Lisans: MIT Lisansı" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
-                                <TextBlock Text="Fiyat: Tamamen Ücretsiz ve Açık Kaynak" FontSize="14" Foreground="{StaticResource SecondaryAccentBrush}" Margin="0,0,0,16" />
+                                <TextBlock Text="{Binding [About_AppName]}" FontSize="20" FontWeight="Bold" Foreground="{StaticResource PrimaryAccentBrush}" Margin="0,0,0,8" />
+                                <TextBlock Text="{Binding [About_Version]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
+                                <TextBlock Text="{Binding [About_Dev]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
+                                <TextBlock Text="{Binding [About_License]}" FontSize="14" Foreground="{StaticResource PrimaryTextBrush}" Margin="0,0,0,4" />
+                                <TextBlock Text="{Binding [About_Price]}" FontSize="14" Foreground="{StaticResource SecondaryAccentBrush}" Margin="0,0,0,16" />
 
                                 <Border Background="#102B3A" CornerRadius="8" Padding="14">
-                                    <TextBlock Text="YASAL BİLDİRİM: Bu uygulama bağımsız ve gayriresmî bir topluluk projesidir. Electronic Arts ile bağlantılı değildir."
+                                    <TextBlock Text="{Binding [About_Disclaimer]}"
                                                FontSize="13" Foreground="{StaticResource SecondaryTextBrush}" TextWrapping="Wrap" />
                                 </Border>
                             </StackPanel>
